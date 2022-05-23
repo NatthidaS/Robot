@@ -1,0 +1,17 @@
+browser:
+    chrome: "chrome"
+
+weburl:
+    url_lotuss:  "https://www.lotuss.com/th"
+login:
+    username:  "0870497138"
+    password:  "njpook1236P"
+
+validate_text:
+    v_login:  "เปิดใช้งานบัญชี มายโลตัส"
+
+public:
+   v_random_number: 0
+   v_text: ""
+
+    

@@ -1,0 +1,6 @@
+elements:
+    login_id:  "id=header-login-link"
+    login_btn: "xpath = //*[contains(text(), 'เข้าสู่ระบบ')] "
+    input_user:  "xpath= //*[@class = 'MuiInputBase-input MuiFilledInput-input']"
+    input_password:  "xpath=/html/body/div/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div/div[2]/div/div/div[1]/div[2]/div[3]/div/div/div/div/input"
+    search_bar:  "id=search-bar-input"
