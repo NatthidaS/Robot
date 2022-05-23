@@ -3,7 +3,6 @@ Resource  ../import.robot
 
 *** Keywords ***
 open website
-    #Open Browser   https://www.lotuss.com/th   chrome
     open browser  ${weburl.url_lotuss}   ${browser.chrome}
 
 login lotuss page
@@ -36,7 +35,7 @@ random number keyword
   #Input text  ${elements.search_bar}   ข้าวหอมมะลิ 
   Input text   id=search-bar-input    ${public.v_random_number}  
   Press Keys  ${elements.search_bar}    ENTER
-  wait until element is visible   id=product-result-title  50s
+  wait until element is visible   id=product-result-title  30s
 
 random number 
    open browser  ${weburl.url_lotuss}   ${browser.chrome}
